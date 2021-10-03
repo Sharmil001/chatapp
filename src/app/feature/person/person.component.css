@@ -1,0 +1,25 @@
+
+input{
+    border: none;
+    border-radius: 2rem;
+    padding: 0.8rem;
+    width: 100%;
+    box-shadow: 2px 8px 10px #edefff;
+}
+
+.card{
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 2px 8px 10px #edefff;
+}
+
+.dp{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.date{
+    text-align: right !important;
+}

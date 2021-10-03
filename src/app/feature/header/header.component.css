@@ -1,0 +1,55 @@
+.header{
+    height: 94vh;
+    background: #6E00FF;
+    border-radius: 1rem;
+}
+
+.messenger, .settings, .bell{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-top: 2rem;
+}
+.home{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.profile{
+    padding-left: 1.5rem;
+}
+
+.dp{
+    position: relative;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #410096;
+}
+
+.menu{
+    position: absolute;
+    margin-top: 8vh;
+}
+
+.footer{
+    position: absolute;
+    margin-top: 72vh;
+}
+
+ul, li{
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.online{
+    position:absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    top: 5.8rem;
+    left: 5.4rem;
+    z-index: 2;
+    border: .2px solid transparent;
+}

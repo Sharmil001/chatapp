@@ -1,0 +1,67 @@
+/* *{
+    background: green !important;
+    height: 90vh;
+} */
+
+.dp{
+    position: relative;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.online{
+      position:absolute;
+      height: 0.5rem;
+      width: 0.5rem;
+      top: 54px;
+      left: 52px;
+      z-index: 2;
+      border: .2px solid transparent;
+}
+
+.card{
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 2px 8px 10px #edefff;
+}
+
+.chat{
+    position: relative;
+    background: #F3F4FA;
+    border-radius: 1rem 1rem 1rem 0rem;
+    width: fit-content;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.chat1{
+    position: relative;
+    background: #6D01FF;
+    border-radius: 1rem 1rem 0rem 1rem;
+    width: fit-content;
+    margin-top: 1rem;
+    color: white;
+}
+
+.attachments{
+    position:absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    z-index: 2;
+    left: 50rem;
+}
+
+input{
+    border: none;
+    position: relative;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    margin: 1rem 2rem 2rem 2rem;
+    margin-right: 2rem;
+    width: fit-content;
+    background-color: #F3F4FA;
+    z-index: 1;
+}
